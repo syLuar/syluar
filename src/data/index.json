@@ -55,7 +55,7 @@
     {
       "id": "1",
       "count": "5",
-      "src": "./img/avatar-image-2.png",
+      "src": "./img/avatar-image-1.png",
       "description": "Very logical, very teachable and a good listener. A good fit for finance and tech industry.",
       "author_name": "Jerel Ong",
       "author_designation": "DBS Singapore"
@@ -63,8 +63,8 @@
     {
       "id": "2",
       "count": "5",
-      "src": "./img/avatar-image-1.png",
-      "description": "He is passionate about tech and driven by impact. Always leverages tech for positive impacts.",
+      "src": "./img/avatar-image-2.png",
+      "description": "He is passionate about tech and driven by impact. Always leverages tech for impacts.",
       "author_name": "Chan Kit Ho",
       "author_designation": "Tuas Mine"
     },
