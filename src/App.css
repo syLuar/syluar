@@ -190,7 +190,7 @@ h2 {
 .hero--section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding: 133.333px 85.333px 133.333px;
+  padding: 133.333px 85.333px 66.666px;
   align-items: center;
   justify-content: space-between;
   gap: 32px;
@@ -239,11 +239,11 @@ h2 {
 /* Skills Section Style */
 .skills--section {
   display: flex;
-  padding: 149.33px 85.33px;
+  padding: 33.33px 85.33px;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 106.667px;
+  gap: 66.667px;
 }
 .skills--section--heading {
   color: var(--heading-color);
@@ -310,7 +310,7 @@ h2 {
 /* About Us */
 .about--section {
   display: grid;
-  padding: 133.3px 85.3px;
+  padding: 46.666px 85.3px;
   align-items: center;
   gap: 114.6px;
   grid-template-columns: repeat(2, 1fr);
@@ -334,12 +334,13 @@ h2 {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  margin-bottom: -50px;
 }
 .portfolio--container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 21.3px;
+  gap: 2.3px;
 }
 .portfolio--section--container {
   display: flex;
@@ -354,6 +355,8 @@ h2 {
 }
 .portfolio--section--img > img {
   width: 100%;
+  border-top-left-radius: 10.6px;
+  border-top-right-radius: 10.6px;
 }
 .portfolio--section--card {
   display: flex;
@@ -366,6 +369,7 @@ h2 {
   cursor: pointer;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
+  border-radius: 10.6px;
 }
 .portfolio--section--card--content {
   display: flex;
@@ -394,7 +398,7 @@ h2 {
 /* Testimonial */
 .testimonial--section {
   display: flex;
-  padding: 112px 84.3px;
+  padding: 66px 124.3px;
   flex-direction: column;
   align-items: flex-start;
   gap: 80px;
@@ -436,7 +440,7 @@ h2 {
 /* Testimonial Ends */
 .contact--section {
   display: flex;
-  padding: 150px 85px;
+  padding: 66px 85px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -509,7 +513,7 @@ input[type="checkbox"] {
 /* Footer Starts */
 .footer--container {
   display: flex;
-  padding: 106.667px 85.333px;
+  padding: 16.667px 85.333px;
   flex-direction: column;
   align-items: flex-start;
   background: var(--bg-shade);
@@ -542,7 +546,7 @@ input[type="checkbox"] {
   text-decoration: none;
 }
 .divider {
-  margin: 106px 0 42.67px;
+  margin: 16px 0 16.67px;
   height: 1.333px;
   width: 100%;
   background: rgba(40, 41, 56, 0.55);

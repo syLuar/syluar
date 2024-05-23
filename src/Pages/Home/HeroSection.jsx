@@ -10,8 +10,8 @@ export default function HeroSection() {
             Developer
           </h1>
           <p className="hero--section-description">
-            I do stuff in NextJS. And Django.
-            <br /> I also do AI sometimes!
+            Writing concepts to reality,
+            <br /> one line at a time.
           </p>
         </div>
         <br></br>
